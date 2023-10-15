@@ -1,9 +1,9 @@
-if(oldstr2203){
-if(oldstr2203->fixed)qbs_set(oldstr2203,_FUNC_ALLOCARRAY_STRING_N2);
+if(oldstr2207){
+if(oldstr2207->fixed)qbs_set(oldstr2207,_FUNC_ALLOCARRAY_STRING_N2);
 qbs_free(_FUNC_ALLOCARRAY_STRING_N2);
 }
-if(oldstr2204){
-if(oldstr2204->fixed)qbs_set(oldstr2204,_FUNC_ALLOCARRAY_STRING_ELEMENTS);
+if(oldstr2208){
+if(oldstr2208->fixed)qbs_set(oldstr2208,_FUNC_ALLOCARRAY_STRING_ELEMENTS);
 qbs_free(_FUNC_ALLOCARRAY_STRING_ELEMENTS);
 }
 qbs_free(_FUNC_ALLOCARRAY_STRING_F12);

@@ -1,50 +1,36 @@
-qbs*oldstr3772=NULL;
-if(_SUB_ADDWARNING_STRING_INCFILENAME->tmp||_SUB_ADDWARNING_STRING_INCFILENAME->fixed||_SUB_ADDWARNING_STRING_INCFILENAME->readonly){
-oldstr3772=_SUB_ADDWARNING_STRING_INCFILENAME;
-if (oldstr3772->cmem_descriptor){
-_SUB_ADDWARNING_STRING_INCFILENAME=qbs_new_cmem(oldstr3772->len,0);
+qbs *_FUNC_SCASE2_STRING_SCASE2=NULL;
+if (!_FUNC_SCASE2_STRING_SCASE2)_FUNC_SCASE2_STRING_SCASE2=qbs_new(0,0);
+qbs*oldstr3819=NULL;
+if(_FUNC_SCASE2_STRING_T->tmp||_FUNC_SCASE2_STRING_T->fixed||_FUNC_SCASE2_STRING_T->readonly){
+oldstr3819=_FUNC_SCASE2_STRING_T;
+if (oldstr3819->cmem_descriptor){
+_FUNC_SCASE2_STRING_T=qbs_new_cmem(oldstr3819->len,0);
 }else{
-_SUB_ADDWARNING_STRING_INCFILENAME=qbs_new(oldstr3772->len,0);
+_FUNC_SCASE2_STRING_T=qbs_new(oldstr3819->len,0);
 }
-memcpy(_SUB_ADDWARNING_STRING_INCFILENAME->chr,oldstr3772->chr,oldstr3772->len);
+memcpy(_FUNC_SCASE2_STRING_T->chr,oldstr3819->chr,oldstr3819->len);
 }
-qbs*oldstr3773=NULL;
-if(_SUB_ADDWARNING_STRING_HEADER->tmp||_SUB_ADDWARNING_STRING_HEADER->fixed||_SUB_ADDWARNING_STRING_HEADER->readonly){
-oldstr3773=_SUB_ADDWARNING_STRING_HEADER;
-if (oldstr3773->cmem_descriptor){
-_SUB_ADDWARNING_STRING_HEADER=qbs_new_cmem(oldstr3773->len,0);
-}else{
-_SUB_ADDWARNING_STRING_HEADER=qbs_new(oldstr3773->len,0);
+qbs *_FUNC_SCASE2_STRING_SEPARATOR=NULL;
+if (!_FUNC_SCASE2_STRING_SEPARATOR)_FUNC_SCASE2_STRING_SEPARATOR=qbs_new(0,0);
+int32 *_FUNC_SCASE2_LONG_NEWWORD=NULL;
+if(_FUNC_SCASE2_LONG_NEWWORD==NULL){
+_FUNC_SCASE2_LONG_NEWWORD=(int32*)mem_static_malloc(4);
+*_FUNC_SCASE2_LONG_NEWWORD=0;
 }
-memcpy(_SUB_ADDWARNING_STRING_HEADER->chr,oldstr3773->chr,oldstr3773->len);
+qbs *_FUNC_SCASE2_STRING_TEMP=NULL;
+if (!_FUNC_SCASE2_STRING_TEMP)_FUNC_SCASE2_STRING_TEMP=qbs_new(0,0);
+int32 *_FUNC_SCASE2_LONG_I=NULL;
+if(_FUNC_SCASE2_LONG_I==NULL){
+_FUNC_SCASE2_LONG_I=(int32*)mem_static_malloc(4);
+*_FUNC_SCASE2_LONG_I=0;
 }
-qbs*oldstr3774=NULL;
-if(_SUB_ADDWARNING_STRING_TEXT->tmp||_SUB_ADDWARNING_STRING_TEXT->fixed||_SUB_ADDWARNING_STRING_TEXT->readonly){
-oldstr3774=_SUB_ADDWARNING_STRING_TEXT;
-if (oldstr3774->cmem_descriptor){
-_SUB_ADDWARNING_STRING_TEXT=qbs_new_cmem(oldstr3774->len,0);
-}else{
-_SUB_ADDWARNING_STRING_TEXT=qbs_new(oldstr3774->len,0);
+int64 fornext_value3821;
+int64 fornext_finalvalue3821;
+int64 fornext_step3821;
+uint8 fornext_step_negative3821;
+byte_element_struct *byte_element_3822=NULL;
+if (!byte_element_3822){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3822=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3822=(byte_element_struct*)mem_static_malloc(12);
 }
-memcpy(_SUB_ADDWARNING_STRING_TEXT->chr,oldstr3774->chr,oldstr3774->len);
-}
-qbs *_SUB_ADDWARNING_STRING_THISSOURCE=NULL;
-if (!_SUB_ADDWARNING_STRING_THISSOURCE)_SUB_ADDWARNING_STRING_THISSOURCE=qbs_new(0,0);
-byte_element_struct *byte_element_3775=NULL;
-if (!byte_element_3775){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3775=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3775=(byte_element_struct*)mem_static_malloc(12);
-}
-qbs *_SUB_ADDWARNING_STRING_THISINCNAME=NULL;
-if (!_SUB_ADDWARNING_STRING_THISINCNAME)_SUB_ADDWARNING_STRING_THISINCNAME=qbs_new(0,0);
-byte_element_struct *byte_element_3776=NULL;
-if (!byte_element_3776){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3776=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3776=(byte_element_struct*)mem_static_malloc(12);
-}
-byte_element_struct *byte_element_3783=NULL;
-if (!byte_element_3783){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3783=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3783=(byte_element_struct*)mem_static_malloc(12);
-}
-byte_element_struct *byte_element_3785=NULL;
-if (!byte_element_3785){
-if ((mem_static_pointer+=12)<mem_static_limit) byte_element_3785=(byte_element_struct*)(mem_static_pointer-12); else byte_element_3785=(byte_element_struct*)mem_static_malloc(12);
-}
+qbs *_FUNC_SCASE2_STRING_S=NULL;
+if (!_FUNC_SCASE2_STRING_S)_FUNC_SCASE2_STRING_S=qbs_new(0,0);

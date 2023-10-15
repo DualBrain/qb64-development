@@ -1,5 +1,4 @@
-if(oldstr3805){
-if(oldstr3805->fixed)qbs_set(oldstr3805,_FUNC_TFSTRINGTOBOOL_STRING_S);
+if(oldstr3844){
+if(oldstr3844->fixed)qbs_set(oldstr3844,_FUNC_TFSTRINGTOBOOL_STRING_S);
 qbs_free(_FUNC_TFSTRINGTOBOOL_STRING_S);
 }
-qbs_free(_FUNC_TFSTRINGTOBOOL_STRING_S2);

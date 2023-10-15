@@ -1,8 +1,8 @@
-if(oldstr6460){
-if(oldstr6460->fixed)qbs_set(oldstr6460,_FUNC_WIKIGETUNTIL_STRING_A);
+if(oldstr6501){
+if(oldstr6501->fixed)qbs_set(oldstr6501,_FUNC_WIKIGETUNTIL_STRING_A);
 qbs_free(_FUNC_WIKIGETUNTIL_STRING_A);
 }
-if(oldstr6461){
-if(oldstr6461->fixed)qbs_set(oldstr6461,_FUNC_WIKIGETUNTIL_STRING_SEPARATOR);
+if(oldstr6502){
+if(oldstr6502->fixed)qbs_set(oldstr6502,_FUNC_WIKIGETUNTIL_STRING_SEPARATOR);
 qbs_free(_FUNC_WIKIGETUNTIL_STRING_SEPARATOR);
 }
