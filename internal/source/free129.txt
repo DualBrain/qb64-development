@@ -1,5 +1,5 @@
-if(oldstr3939){
-if(oldstr3939->fixed)qbs_set(oldstr3939,_FUNC_INIFORMATSECTION_STRING___SECTION);
+if(oldstr3899){
+if(oldstr3899->fixed)qbs_set(oldstr3899,_FUNC_INIFORMATSECTION_STRING___SECTION);
 qbs_free(_FUNC_INIFORMATSECTION_STRING___SECTION);
 }
 qbs_free(_FUNC_INIFORMATSECTION_STRING_SECTION);

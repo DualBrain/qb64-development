@@ -1,5 +1,5 @@
-if(oldstr6505){
-if(oldstr6505->fixed)qbs_set(oldstr6505,_SUB_PRINTWRAPSTATUS_STRING___TEXT);
+if(oldstr6464){
+if(oldstr6464->fixed)qbs_set(oldstr6464,_SUB_PRINTWRAPSTATUS_STRING___TEXT);
 qbs_free(_SUB_PRINTWRAPSTATUS_STRING___TEXT);
 }
 qbs_free(_SUB_PRINTWRAPSTATUS_STRING_TEXT);
